@@ -1,0 +1,9 @@
+<div id="chat-box">
+    <div class="message" *ngFor="let message of messages">
+
+        <img [src]="message.avatar"/>
+
+        <span>{{message.body}}</span>
+
+    </div>
+</div>

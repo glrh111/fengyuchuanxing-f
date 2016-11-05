@@ -1,0 +1,33 @@
+body {
+    font: "Courier New", courier, monospace;
+}
+#chat-box {
+    min-width: 500px;
+    min-height: 500px;
+    background: #2e2e2e;
+    font-size: medium;
+    padding: 5px;
+}
+
+.message {
+    color: black;
+    background: antiquewhite;
+    border-radius: 3px;
+    display: block;
+    margin: 5px 2px;
+    vertical-align: middle;
+}
+
+.message img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline;
+    margin: 2px 1px;
+}
+.message p {
+    display: inline;
+    padding: 2px;
+    vertical-align: middle;
+    line-height: 30px;
+}
